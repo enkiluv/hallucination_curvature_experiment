@@ -18,7 +18,7 @@ python run\_all.py
 
 ## Project Structure
 ```
-hallucination\_curvature\_experiment/
+hallucination\_curvature\_experiment
 ├── setup.py                    # Environment setup
 ├── run\_all.py                 # Master execution script
 ├── requirements.txt            # Package dependencies
@@ -34,4 +34,5 @@ hallucination\_curvature\_experiment/
 
 ## License
 MIT License
+
 
