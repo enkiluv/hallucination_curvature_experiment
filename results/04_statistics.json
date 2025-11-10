@@ -1,0 +1,15 @@
+{
+  "kappa_h_correlation": {
+    "r": 0.8345587221525184,
+    "p": 0.07874398379705198,
+    "interpretation": "Strong"
+  },
+  "rho_kappa_correlation": {
+    "r": NaN,
+    "p": NaN
+  },
+  "rho_h_correlation": {
+    "r": NaN,
+    "p": NaN
+  }
+}

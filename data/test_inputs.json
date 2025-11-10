@@ -1,0 +1,54 @@
+{
+  "test_cases": [
+    {
+      "id": 1,
+      "text": "What is 2 + 2?",
+      "category": "simple_arithmetic",
+      "ground_truth": "4",
+      "predicted_rho": 60,
+      "predicted_kappa": 0.10,
+      "predicted_h": 0.05,
+      "notes": "Extremely simple, low entropy"
+    },
+    {
+      "id": 2,
+      "text": "What is the capital of France?",
+      "category": "common_knowledge",
+      "ground_truth": "Paris",
+      "predicted_rho": 70,
+      "predicted_kappa": 0.18,
+      "predicted_h": 0.10,
+      "notes": "Common knowledge"
+    },
+    {
+      "id": 3,
+      "text": "Explain how neural networks learn through backpropagation.",
+      "category": "technical_explanation",
+      "ground_truth": null,
+      "predicted_rho": 180,
+      "predicted_kappa": 0.35,
+      "predicted_h": 0.35,
+      "notes": "Technical content"
+    },
+    {
+      "id": 4,
+      "text": "What are the implications of quantum decoherence for the many-worlds interpretation of quantum mechanics?",
+      "category": "complex_theoretical",
+      "ground_truth": null,
+      "predicted_rho": 280,
+      "predicted_kappa": 0.50,
+      "predicted_h": 0.60,
+      "notes": "Highly complex"
+    },
+    {
+      "id": 5,
+      "text": "Who won the 2024 Nobel Prize in Literature?",
+      "category": "temporal_knowledge",
+      "ground_truth": "Han Kang",
+      "predicted_rho": 95,
+      "predicted_kappa": 0.22,
+      "predicted_h": 0.95,
+      "notes": "Knowledge cutoff test"
+    }
+  ]
+}

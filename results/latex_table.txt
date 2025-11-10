@@ -1,0 +1,16 @@
+\begin{table}[h]
+\centering
+\caption{Theoretical Predictions vs. Empirical Observations}
+\begin{tabular}{clcccccc}
+\hline
+\textbf{ID} & \textbf{Category} & \boldmath$\rho_{\text{pred}}$ & \boldmath$\rho_{\text{obs}}$ & \boldmath$\kappa_{\text{pred}}$ & \boldmath$\kappa_{\text{obs}}$ & \boldmath$h_{\text{pred}}$ & \boldmath$h_{\text{obs}}$ \\
+\hline
+1 & simple_arithmet & 60 & 53.76 & 0.10 & 0.06 & 0.05 & 0.60 \\
+2 & common_knowledg & 70 & 53.76 & 0.18 & 0.11 & 0.10 & 0.60 \\
+3 & technical_expla & 180 & 53.76 & 0.35 & 0.10 & 0.35 & 0.80 \\
+4 & complex_theoret & 280 & 53.76 & 0.50 & 0.11 & 0.60 & 0.80 \\
+5 & temporal_knowle & 95 & 53.76 & 0.22 & 0.37 & 0.95 & 1.00 \\
+\hline
+\end{tabular}
+\label{tab:results}
+\end{table}
